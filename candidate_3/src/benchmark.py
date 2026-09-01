@@ -17,6 +17,7 @@ def benchmark_read_csv() -> None:
     print(f"Memory usage for sales.csv: {memory_usage:.2f} MB")
 
 
+
 def benchmark_pandas_groupby() -> float:
     """Time a groupby-sum aggregation in pandas."""
     df = read_sales_csv()

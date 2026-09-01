@@ -13,3 +13,4 @@ instead of the actual number 1149. Every time you read a CSV, pandas has to re-g
 
 pyarrow is the same columnar format both Polars and DuckDB read natively, 
 which is part of why Parquet plays so well with those tools.
+
