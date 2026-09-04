@@ -1,4 +1,4 @@
-virtual_env
+virtual_env/
 .env
 .vscode/
 Bussiness Data Insight.session.sql
@@ -9,3 +9,4 @@ src/testing.py
 src/__pycache__
 
 .pytest_cache/
+test/pytest_cache/
