@@ -1,7 +1,6 @@
 # src/db.py
 """
-db.py
-Single responsibility: manage the Postgres connection.
+File used to manage the Postgres connection.
 No business logic here — just open/close cleanly, credentials from .env.
 """
 import os
