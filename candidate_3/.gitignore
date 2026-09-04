@@ -6,3 +6,6 @@ Bussiness Data Insight.session.sql
 src/scripts/__pycache__/
 src/scratch.py
 src/testing.py
+src/__pycache__
+
+.pytest_cache/
