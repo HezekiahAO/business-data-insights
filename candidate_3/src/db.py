@@ -14,8 +14,8 @@ load_dotenv()
 def get_connection():
     """Open a new Postgres connection using credentials from .env."""
     return psycopg2.connect(
-        host="localhost",
-        dbname="postgres",
-        user="postgres",
+        host=os.getenv("DB_HOST"),
+        dbname=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
         password=os.getenv("DB_PASSWORD"),
     )
